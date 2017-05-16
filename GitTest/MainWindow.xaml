@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:GitTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Bottom">
         <Button>Gomb</Button>
         <Button>Gomb</Button>
         <Button>Gomb</Button>
     </StackPanel>
+        <Grid></Grid>
+    </DockPanel>
+    
 </Window>
